@@ -33,7 +33,7 @@ $ yarn start
 
 ## Contact
 
-LinkedIn: Salaichandru's LinkedIn
+LinkedIn: www.linkedin.com/in/salaichandru007
 Email: salaichandru007@gmail.com
 
 ## License
