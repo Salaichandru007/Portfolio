@@ -3,12 +3,13 @@ import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
 import Home from './components/home/Home';
 import About from './components/about/About';
-import Services from './components/services/Services';
-import Resume from './components/resume/Resume';
+import Skills from './components/skills/Skills';
+import Experience from './components/experience/Experience';
 import Portfolio from './components/portfolio/Portfolio';
-import Testimonials from './components/testimonials/Testimonials';
-import Blog from './components/blog/Blog';
+// import Testimonials from './components/testimonials/Testimonials';
+// import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
+import Certificates from './components/certificate/Certificates';
 import useLocalStorage from 'use-local-storage'
 
 
@@ -27,11 +28,12 @@ function App() {
             <main className='main'>
                 <Home />
                 <About />
-                <Services />
-                <Resume />
+                <Skills />
+                <Experience />
                 <Portfolio />
-                <Testimonials />
-                <Blog />
+                {/* <Testimonials /> */}
+                {/* <Blog /> */}
+                <Certificates />
                 <Contact theme={theme} />
             </main>
         </div>

@@ -25,14 +25,18 @@ const Contact = (props) => {
             email,
             subject,
             message,
+            sender_name: name,
+            sender_email: email
         };
-
+        const seriveID = 'service_0jfhevv';
+        const templateId= 'template_68y17zd';
+        const publicKey= 'UoDICtVnBbKstPCGu';
         emailjs
             .send(
-                process.env.REACT_APP_EMAILJS_SERVICE_ID,
-                process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+                seriveID,
+                templateId,
                 data,
-                process.env.REACT_APP_EMAILJS_PUBLIC_API
+                publicKey
             )
             .then(
                 (result) => {

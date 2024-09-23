@@ -8,12 +8,14 @@ import {
     RiUser3Line,
     RiBriefcase2Line,
     RiStackLine,
-    RiDraftLine,
+    RiComputerLine,
     RiChat3Line,
-    RiFileList3Line,
     RiMoonLine,
     RiSunLine,
     RiMenu2Line,
+    RiAwardLine,
+    // RiDraftLine,
+    // RiFileList3Line,
 } from "react-icons/ri";
 
 
@@ -43,26 +45,32 @@ const Sidebar = (props) => {
                             </li>
 
                             <li className="nav__item">
-                                <a href="#services" className="nav__link">
-                                    <RiFileList3Line />
+                                <a href="#skills" className="nav__link">
+                                    <RiComputerLine />
                                 </a>
                             </li>
 
                             <li className="nav__item">
-                                <a href="#resume" className="nav__link">
+                                <a href="#experience" className="nav__link">
                                     <RiBriefcase2Line />
                                 </a>
                             </li>
 
                             <li className="nav__item">
-                                <a href="#portfolio" className="nav__link">
+                                <a href="#projects" className="nav__link">
                                     <RiStackLine />
                                 </a>
                             </li>
 
-                            <li className="nav__item">
+                            {/* <li className="nav__item">
                                 <a href="#blog" className="nav__link">
                                     <RiDraftLine />
+                                </a>
+                            </li> */}
+
+                            <li className="nav__item">
+                                <a href="#certificates" className="nav__link">
+                                    <RiAwardLine />
                                 </a>
                             </li>
 
