@@ -9,7 +9,7 @@
 
 <br>
 
-![screenshot](https://github.com/salaichandru007/My_React_Portfolio/raw/master/src/assets/Screenshot.png)
+![screenshot](https://github.com/salaichandru007/portfolio/raw/master/src/assets/Screenshot.png)
 
 
 ## How To Use
